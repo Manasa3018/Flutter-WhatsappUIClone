@@ -1,0 +1,28 @@
+class ChatModel{
+    final String name;
+    final String message;
+    final String time;
+    final String avatar;
+
+    ChatModel({required this.name,required this.message, required this.time, required this.avatar});
+    }
+
+List <ChatModel> pageData=[
+    new ChatModel(
+    name: "A R Rahman",
+    message : "Class started bro",
+    time: "8.50 am",
+    avatar: "https://tse1.mm.bing.net/th?id=OIP.Tmi1ZqUpgYvrhRgl3E-8JQHaHa&pid=Api&P=0&w=167&h=167"),
+    new ChatModel(
+        name: "Maniratnam",
+        message : "Did u complete the Assignment?",
+        time: "12.50 am",
+        avatar: "https://tse2.mm.bing.net/th?id=OIP.uLnHCbTTq8XkK8xHnU0BjgHaFi&pid=Api&P=0&w=222&h=166"),
+     new ChatModel(
+            name: "Dulquer Salman",
+            message : "Hey whatsup?",
+            time: "11.50 pm",
+            avatar: "https://tse1.mm.bing.net/th?id=OIP.Nbw1iAc1roSC4I29IJu2yQHaEK&pid=Api&P=0&w=285&h=160"),
+            ];
+
+
